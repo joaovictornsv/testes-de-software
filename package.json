@@ -2,7 +2,7 @@
   "name": "atividade1-n2",
   "version": "1.0.0",
   "description": "",
-  "main": "questao1.test.js",
+  "main": "atividade-1-n2/questao1.test.js",
   "scripts": {
     "test": "vitest run"
   },

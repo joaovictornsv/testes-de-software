@@ -4,11 +4,11 @@
 
 ---
 
-[Questão 1](/questao1.test.js)
+[Questão 1](/atividade-1-n2/questao1.test.js)
 
-[Questão 2](/questao2.test.js)
+[Questão 2](/atividade-1-n2/questao2.test.js)
 
-[Questão 3](/questao3.test.js)
+[Questão 3](/atividade-1-n2/questao3.test.js)
 
 ---
 
