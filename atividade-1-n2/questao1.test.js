@@ -1,5 +1,6 @@
 import { describe, expect, test } from 'vitest'
 
+// Implementação
 export class Bola {
   #cor;
 
@@ -16,6 +17,7 @@ export class Bola {
   }
 }
 
+// Testes
 describe('Bola', () => {
   test('getCor', () => {
     const cor = 'azul'

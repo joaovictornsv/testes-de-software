@@ -1,5 +1,6 @@
 import { describe, expect, test } from 'vitest'
 
+// Implementação
 export class Calculadora {
   #resultado = 0;
 
@@ -24,6 +25,7 @@ export class Calculadora {
   }
 }
 
+// Testes
 describe('Calculadora', () => {
   test('somar', () => {
     const num1 = 1

@@ -1,5 +1,6 @@
 import { describe, expect, test } from 'vitest'
 
+// Implementação
 export class Triangulo {
   #ladoA;
   #ladoB;
@@ -62,6 +63,7 @@ export class Triangulo {
   }
 }
 
+// Testes
 describe('Triangulo', () => {
   test('escaleno válido', () => {
     const ladoA = 3
