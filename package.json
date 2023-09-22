@@ -1,0 +1,15 @@
+{
+  "name": "atividade1-n2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "questao1.test.js",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^0.34.5"
+  }
+}
