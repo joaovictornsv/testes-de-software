@@ -1,8 +1,7 @@
 {
-  "name": "atividade1-n2",
+  "name": "testes-de-software",
   "version": "1.0.0",
   "description": "",
-  "main": "atividade-1-n2/questao1.test.js",
   "scripts": {
     "test": "vitest run"
   },
