@@ -3,6 +3,8 @@ export class Mecanico {
   #nome
   #especialidades = []
 
+  constructor() {}
+
   get matricula() {
     return this.#matricula
   }

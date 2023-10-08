@@ -1,8 +1,10 @@
 export class Veiculo {
   #placa
   #tipo
-  #numOcorrencias
+  #numOcorrencias = 0
   #anoDeFabricacao
+
+  constructor() {}
 
   get placa() {
     return this.#placa
