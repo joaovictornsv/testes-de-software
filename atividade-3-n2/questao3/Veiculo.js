@@ -39,13 +39,6 @@ export class Veiculo {
   }
 
   calculoGarantia() {
-    if (this.#tipo === 'PICKUP') {
-      return this.#anoDeFabricacao + 5
-    }
-    if (this.#tipo === 'SUV') {
-      return this.#anoDeFabricacao + 3
-    }
-    // Tipo POPULAR é o default
     return this.#anoDeFabricacao + 2
   }
 }

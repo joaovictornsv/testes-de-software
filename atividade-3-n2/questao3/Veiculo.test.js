@@ -34,14 +34,14 @@ describe('Veiculo', () => {
     const veiculo = new Veiculo()
     veiculo.tipo = 'PICKUP'
     veiculo.anoDeFabricacao = 2012
-    expect(veiculo.calculoGarantia()).toEqual(2017)
+    expect(veiculo.calculoGarantia()).toEqual(2014)
   })
 
   test('calculoGarantia - SUV', () => {
     const veiculo = new Veiculo()
     veiculo.tipo = 'SUV'
     veiculo.anoDeFabricacao = 2012
-    expect(veiculo.calculoGarantia()).toEqual(2015)
+    expect(veiculo.calculoGarantia()).toEqual(2014)
   })
 
   test('calculoGarantia - POPULAR', () => {

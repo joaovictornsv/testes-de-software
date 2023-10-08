@@ -34,6 +34,6 @@ export class Mecanico {
   }
 
   funcionarioPremium() {
-    return this.#especialidades.length > 2
+    return this.#especialidades.length > 1
   }
 }

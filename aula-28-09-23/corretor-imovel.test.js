@@ -1,4 +1,5 @@
-const { Imovel, Corretor } = require(".")
+import { describe, expect, test  } from 'vitest'
+import {Corretor, Imovel} from "./corretor-imovel";
 
 describe('Imovel', () => {
   test('tipo CASA - oportunidade TRUE', () => {
@@ -62,7 +63,7 @@ describe('Corretor', () => {
     corretor.adicionaImovel(criarImovelOportunidade())
     corretor.adicionaImovel(criarImovelSemOportunidade())
 
-    expect(corretor.vendedorEstrela()).toEqual(true)  
+    expect(corretor.vendedorEstrela()).toEqual(true)
   })
   test('vendedorEstrela FALSE', () => {
     const corretor = new Corretor()
