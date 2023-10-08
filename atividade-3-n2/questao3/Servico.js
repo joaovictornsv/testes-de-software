@@ -7,11 +7,11 @@ export class Servico {
   #mecanico
   #veiculo
 
-  constructor(matricula, placaVeiculo) {
+  constructor(matriculaMecanico, placaVeiculo) {
     this.#id = new Date().getMilliseconds()
 
     const mecanico = new Mecanico()
-    mecanico.matricula = matricula
+    mecanico.matricula = matriculaMecanico
     this.#mecanico = mecanico
 
     const veiculo = new Veiculo()
