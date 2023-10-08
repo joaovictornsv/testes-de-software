@@ -19,6 +19,10 @@ export class Mecanico {
     this.#nome = novoNome
   }
 
+  get especialidades() {
+    return this.#especialidades
+  }
+
   adicionaEspecialidade(especialidade) {
     this.#especialidades.push(especialidade)
   }
